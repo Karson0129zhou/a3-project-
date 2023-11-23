@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/animate.css">
+	<link rel="stylesheet" href="static/css/owl.carousel.css">
+	<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="static/css/magnific-popup.css">
+	<link rel="stylesheet" href="static/css/templatemo-style.css">
+	<style>
+        
+        .comments {
+        margin: 2em 0;
+        text-align: center;
+    	}
+
+    	.comment {
+        margin-bottom: 1.5em;
+    	}
+
+    	.comment b {
+        font-weight: bold;
+    	}
+
+    	.comment span {
+        font-size: 0.8em;
+        color: #666;
+    	}
+	
+    	.comment-form {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* This will center the form itself if needed */
+    	}
+
+    	.comment-form input,
+    	.comment-form textarea {
+        width: 100%;
+        margin-bottom: 1em;
+    	}
+
+    	.comment-form button {
+        padding: 0.5em 1em;
+    	}
+    </style>
+
+
+</head>
+
+<body>
+
+	<section class="preloader">
+		<div class="spinner">
+			<span class="spinner-rotate"></span>
+		</div>
+	</section>
+
+
+	<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+                		<ul class="nav navbar-nav navbar-nav-first">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon icon-bar"></span>
+					<span class="icon icon-bar"></span>
+					<span class="icon icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">
+					<img src="./static/image/mylogo.png" alt="" style="width: 80px;position: relative;top: -45px;">
+				</a>
+				<p style="font-weight: bold;">Australian grain and multigrain sharing</p>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-nav-first">
+					<li><a href="#home" class="smoothScroll">Home</a></li>
+					<li><a href="#about" class="smoothScroll">About</a></li>
+					<li><a href="#benefits" class="smoothScroll">Benefits</a></li>
+					<li><a href="#category" class="smoothScroll">Category</a></li>
+					
+					<li><a href="#comments" class="smoothScroll">Comments</a></li>
+					<li><a href="#footer" class="smoothScroll">Contact</a></li>
+
+					<li><a href="#feedback" class="smoothScroll">Feedback</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+
+
+	<section id="home" class="slider" data-stellar-background-ratio="0.5">
+		<div class="row">
+
+			<div class="owl-carousel owl-theme" >
+				<div class="item item-first" id="jump">
+					<div class="caption" >
+						<div class="container" id="jump">
+							<div class="col-md-8 col-sm-12">
+								<h3>Multigrain food is a kind of food that <br> is highly praised by people in life</h3>
+								<h1>Eating multigrain food has many benefits for our health.</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item item-second"  id="jump" >
+					<div class="caption" >
+						<div class="container" >
+							<div class="col-md-8 col-sm-12" >
+								<h3>Multigrain food is a kind of food that <br> is highly praised by people in life</h3>
+								<h1>Eating multigrain food has many benefits for our health.</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item item-third" id="jump" >
+					<div class="caption" >
+						<div class="container" >
+							<div class="col-md-8 col-sm-12" >
+								<h3>Multigrain food is a kind of food that <br> is highly praised by people in life</h3>
+								<h1>Eating multigrain food has many benefits for our health.</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="about" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 col-sm-12">
+					<div class="about-info">
+						<div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+							<h2>The website tries to make the Australian mainstream society pay attention to grains and
+								coarse grains</h2>
+						</div>
+
+						<div class="wow fadeInUp" data-wow-delay="0.4s">
+							<p>Which are not considered staple foods by Australians, because these foods are actually
+								rich in nutrition.
+								Muliti-Grains are rich in vitamin B， vitamin E, minerals, dietary fiber and other
+								nutrients. B complex vitamins: mainly regulate metabolism, maintain skin and muscle
+								health, and strengthen the immune system and nervous system. Vitamin E is an important
+								fat-soluble antioxidant that helps protect the cardiovascular system and reduces free
+								radicals.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-12">
+					<div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+						<img src="static/image/img2.png" class="img-responsive" alt="">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="benefits" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 col-sm-12">
+					<div class="about-info">
+						<div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+							<h2>The benefits of Multigrain to the human body</h2>
+						</div>
+
+						<div class="wow fadeInUp" data-wow-delay="0.4s">
+							<p>Benefiting from Australia's unique geographical environment and weather climate,
+								according to (kath, 2021) from Australian Broadcasting Corporation, good weather in most
+								parts of the country, coupled with drought in Russia, Canada and the United States, will
+								increase the income of Australian grain growers, A $30 billion winter crop is now
+								expected to be exported, a 17 per cent increase. It can be seen that Australia is not
+								only developed in animal husbandry, but also in grain production is the most developed
+								country in the world.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-12">
+					<div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+						<img src="static/image/img1.png" class="img-responsive" alt="">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="category" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12 col-sm-12">
+					<div class="section-title wow fadeInUp" data-wow-delay="0.1s" style="text-align: center;">
+						<h2>Multigrain food in daily life can be mainly divided into three categories</h2>
+						<h4>cereals &amp; beans &amp; tubers </h4>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-4">
+					<div class="team-info">
+						<h4>Cereals: purple rice, corn, black rice, millet, sorghum, red rice, barley, buckwheat, etc.
+						</h4>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="team-info">
+						<h4>Miscellaneous beans: black beans, red beans, mung beans, broad beans, soybeans, peas, etc.
+						</h4>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="team-info">
+						<h4>Tubers: sweet potatoes, potatoes and yams, etc.</h4>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="comments" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                        <h2>Comments</h2>
+                        <p>See what others are saying!!!.</p>
+                    </div>
+                </div>
+
+                <!-- Comment Display Area -->
+		<div class="col-md-12 col-sm-12">
+    			<div class="comments-container">
+        			<h3>User Comments</h3>
+        			<ul class="comment-list">
+           				<li class="comment">
+                				<b>Tiger:</b> <span>This is a fantastic!</span>
+            				</li>
+            <li class="comment">
+                <b>Ryan:</b> <span>Really good!!.</span>
+            </li>
+            <li class="comment">
+                <b>Miho:</b> <span>Great information on the benefits of multigrain diets!</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+                <!-- Comment Submission Form -->
+                <div class="col-md-12 col-sm-12">
+                    <div class="comment-form">
+                        <form id="comment-form">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <textarea class="form-control" placeholder="Your Comment" required></textarea>
+                            <button type="submit" class="form-control">Submit Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+	<footer id="footer" data-stellar-background-ratio="0.5" style="padding: 0;">
+		<div class="container">
+			<div class="row" style="text-align: center;">
+				<div class="col-md-12 col-sm-12">
+					<div class="footer-info">
+						<div class="section-title">
+							<h2 class="wow fadeInUp" data-wow-delay="0.2s">Contact me</h2>
+						</div>
+						<address class="wow fadeInUp" data-wow-delay="0.4s">
+							<p>Karsonchowchungyin@gmail.com</p>
+							<p>songxian.zhou@student.uts.edu.au</p>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- SCRIPTS -->
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/jquery.stellar.min.js"></script>
+	<script src="static/js/wow.min.js"></script>
+	<script src="static/js/owl.carousel.min.js"></script>
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<script src="static/js/smoothscroll.js"></script>
+	<script src="static/js/custom.js"></script>
+</body>
+<!-- Static Comment Section -->
+<div class="container comments" id="feedback"> <!-- Add the id 'feedback' here -->
+    <h3>Feedback</h3>
+</div>
+
+<div class="container comment-form">
+    <h3>Leave a Feedback</h3>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <textarea placeholder="Your Feedback" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer id="footer" data-stellar-background-ratio="0.5" style="padding: 0;">
+    <!-- Existing footer content -->
+</footer>
+
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>secondary</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/animate.css">
+	<link rel="stylesheet" href="static/css/owl.carousel.css">
+	<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="static/css/magnific-popup.css">
+	<link rel="stylesheet" href="static/css/templatemo-style.css">
+	<style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+      ul{
+        list-style: none;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+      }  
+      ul li{
+        width: 50%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+      }
+      ul li img{
+        width: 100%;
+        height: 400px;
+        /* margin: 0 auto; */
+        text-align: center;
+      }
+      @media screen and (max-width: 900px) {
+        ul{
+            width: 100%;
+            margin:  0;
+        }
+        li{
+            width: 100% !important;
+        }
+        .title{
+            height: 180px;
+            font-size: 14px;
+            padding: 0 5px;
+        }
+      }
+    </style>
+
+
+</head>
+
+<body>
+    <ul data-stellar-background-ratio="0.3">
+        <li class="title wow" id="jumpthree">Wheat: Wheat is one of Australia's most important agricultural products and is widely used in the production of flour and pasta products.</li>
+        <li class="imgbox wow">
+            <img src="./static//image/1.png" alt="">
+        </li>
+        
+        <li class="title wow" id="jumpthree"> Barley: Barley is also a major grain in Australia and is used for brewing beer, making feed and food.</li>
+        <li class="imgbox wow">
+            <img src="./static//image/2.png" alt="">
+
+        </li>
+        <li class="title wow">
+            Corn/Maize: Corn also has a certain amount of production in Australia and is widely used in food, feed and industrial fields.
+        </li>
+        <li class="imgbox wow">
+            <img src="./static//image/3.png" alt="">
+
+        </li>
+        
+        <li class="title wow">
+            Soybeans: Soybeans are an important oilseed crop in Australia, used for the production of edible oils and feed.
+        </li>
+        <li class="imgbox wow">
+            <img src="./static//image/4.png" alt="">
+
+        </li>
+        <li class="title wow">
+            Rice: Some areas of Australia are suitable for rice cultivation, so rice is also an important agricultural product produced in the country.
+        </li>
+        <li class="imgbox wow">
+            <img src="./static//image/5.png" alt="">
+
+        </li>
+        
+        <li class="title wow">
+            Quinoa: Quinoa is an ancient crop whose planting area has increased in Australia in recent years and has attracted much attention for its nutritional value.
+        </li>
+        <li class="imgbox wow">
+            <img src="./static//image/6.png" alt="">
+
+        </li>
+        <li class="title wow">
+            Canola: Rapeseed is an important oil crop used for the production of edible oil. Some areas of Australia are suitable for the cultivation of rapeseed.
+        </li>
+        <li class="imgbox wow">
+            <img src="./static//image/7.png" alt="">
+
+        </li>
+    </ul>
+
+
+	<!-- SCRIPTS -->
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/jquery.stellar.min.js"></script>
+	<script src="static/js/wow.min.js"></script>
+	<script src="static/js/owl.carousel.min.js"></script>
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<script src="static/js/smoothscroll.js"></script>
+	<script src="static/js/custom.js"></script>
+</body>
+<!-- Static Comment Section -->
+
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>three-level</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/animate.css">
+	<link rel="stylesheet" href="static/css/owl.carousel.css">
+	<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="static/css/magnific-popup.css">
+	<link rel="stylesheet" href="static/css/templatemo-style.css">
+	<style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+      ul{
+        list-style: none;
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+      }  
+      ul li{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 40px;
+      }
+      .leftimg{
+        width: 45%;
+      }
+      .rightimg{
+        width: 45%;
+      }
+      img{
+        width: 100%;
+        height: 300px;
+      }
+      @media screen and (max-width: 900px) {
+        ul{
+            width: 100%;
+            margin:  0;
+        }
+        li{
+            width: 100% !important;
+        }
+        .threetitle{
+            height: 80px;
+            font-size: 14px;
+            padding: 0 5px;
+        }
+      }
+    </style>
+
+
+</head>
+
+<body>
+    <ul data-stellar-background-ratio="0.3">
+       <li>
+        <div class="threetitle wow">User can use the grains in the list to make the following food ad\s a recipe
+            Wheat: It is widely used in the production of flour and pasta products, and can also be made into the cereals we often eat for breakfast.</div>
+            <div class="leftimg wow">
+                <img src="./static/image/1.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/1s.png" alt="">
+            </div>
+       </li>
+       <li>
+        <div class="threetitle wow"> Barley: Adding carrots, beef broth, salt and pepper. Can be made into Turkish fried rice</div>
+            <div class="leftimg wow">
+                <img src="./static/image/2.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/2s.png" alt="">
+            </div>
+       </li>
+       <li>
+        <div class="threetitle wow"> Corn/Maize: Corn is also very popular in society whether it is a side dish or a staple food. Adding whole milk, onions, salt, pepper, cornstarch to corn. can be made cream corn.</div>
+            <div class="leftimg wow">
+                <img src="./static/image/3.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/3s.png" alt="">
+            </div>
+       </li>
+       <li>
+        <div class="threetitle wow"> Soybeans: Soybeans are an important oilseed crop in Australia, used for the production of edible oils and feed.Can be made into the well-known soy milk</div>
+            <div class="leftimg wow">
+                <img src="./static/image/4.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/4s.png" alt="">
+            </div>
+       </li>
+       <li>
+        <div class="threetitle wow"> Rice: Rice is definitely one of the staple foods of some Asians. Add eggs, soy sauce, and chopped green onion to get a fried rice.</div>
+            <div class="leftimg wow">
+                <img src="./static/image/5.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/5s.png" alt="">
+            </div>
+       </li>
+       <li>
+        <div class="threetitle wow"> Quinoa: Can be made into soba noodles, which are a staple food choice for healthy people</div>
+            <div class="leftimg wow">
+                <img src="./static/image/6.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/6s.png" alt="">
+            </div>
+       </li>
+       <li>
+        <div class="threetitle wow"> Canola: After being refined into oil, rapeseed can be added as a supporting actor to any dish.</div>
+            <div class="leftimg wow">
+                <img src="./static/image/7.png" alt="">
+            </div>
+            <div class="rightimg wow">
+                <img src="./static/image/7s.png" alt="">
+            </div>
+       </li>
+    </ul>
+
+
+	<!-- SCRIPTS -->
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/jquery.stellar.min.js"></script>
+	<script src="static/js/wow.min.js"></script>
+	<script src="static/js/owl.carousel.min.js"></script>
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<script src="static/js/smoothscroll.js"></script>
+	<script src="static/js/custom.js"></script>
+</body>
+<!-- Static Comment Section -->
+
+
+</html>
